@@ -1,3 +1,4 @@
+
 # CemuMouseKeyboardControls
 
 🎮 This project lets you play **The Legend of Zelda: Breath of the Wild** on **Cemu** using only **keyboard and mouse**, with smooth analog-like mouse movement for camera control and full input emulation — without needing vJoy or controllers.
@@ -34,7 +35,16 @@ To use this script, make sure Cemu is set to **Keyboard [Keyboard]** and you con
 | ZL / ZR            | `CTRL`, `M`
 | D-Pad              | `C`, `W`, `A`, `X` (Up, Down, Left, Right)
 
-🗂️ You can import the exact profile using the `.bin` file provided in this repo under `/cemu_profile/`.
+🗂️ You can import the exact controller configuration using the file:
+
+```
+📄 2025-05-08-19-48.xml
+```
+
+Simply place it in your `Cemu/controllerProfiles/` folder, then load it in Cemu from the Input Settings using the "Load" button.
+
+💾 Place in:  
+`Cemu/controllerProfiles/2025-05-08-19-48.xml`
 
 ---
 
@@ -42,7 +52,7 @@ To use this script, make sure Cemu is set to **Keyboard [Keyboard]** and you con
 
 1. ✅ **Install [AutoHotkey v2](https://www.autohotkey.com/download/)**
 2. 🧩 Download this repository
-3. 🔧 Launch `CemuMouseControl.ahk` by double-clicking it
+3. 🔧 Launch `MouseToKey_Cemu_v2.ahk` by double-clicking it
 4. 🎮 Open Cemu, load the provided keyboard profile
 5. 💨 Play BOTW with your keyboard and mouse!
 
@@ -76,13 +86,12 @@ To use this script, make sure Cemu is set to **Keyboard [Keyboard]** and you con
 ---
 
 ## 🗃️ Files in this repo
-📁 /cemu_profile/ → Keyboard profile to import into Cemu
-📄 CemuMouseControl.ahk → The main script
-📄 README.md → This file
 
-yaml
-Copier
-Modifier
+```
+📄 2025-05-08-19-48.xml      → Keyboard profile for Cemu (place in `controllerProfiles/`)
+📄 MouseToKey_Cemu_v2.ahk    → The main script
+📄 README.md                 → This file
+```
 
 ---
 
