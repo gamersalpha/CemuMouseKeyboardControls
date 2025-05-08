@@ -76,4 +76,14 @@ To use this script, make sure Cemu is set to **Keyboard [Keyboard]** and you con
 ---
 
 ## 🗃️ Files in this repo
+📁 /cemu_profile/ → Keyboard profile to import into Cemu
+📄 CemuMouseControl.ahk → The main script
+📄 README.md → This file
 
+yaml
+Copier
+Modifier
+
+---
+
+Happy adventuring in Hyrule 🗺️
